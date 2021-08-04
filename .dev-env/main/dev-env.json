@@ -1,0 +1,9 @@
+{
+    "containerArgs": [
+        "-v", "${PROJECTROOT}:/src",
+        "-v", "${HOME}/.ssh:/home/elm/.ssh",
+        "-w", "/src"
+    ],
+    "name": "elm",
+    "options": {}
+}
